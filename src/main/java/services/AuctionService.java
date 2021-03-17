@@ -10,7 +10,7 @@ import java.util.List;
 
 public class AuctionService {
 
-    public static Result findWinner(AuctionObject auctionObject, List<Bid> bids) throws AuctionException {
+    public Result findWinner(AuctionObject auctionObject, List<Bid> bids) throws AuctionException {
         List<Buyer> buyers = auctionObject.getBuyers();
         /**
          * Check if there are more than one buyer

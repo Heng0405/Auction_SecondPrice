@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46ef6bc0-f343-4c67-a9f4-0f12e71fcc40" name="Default Changelist" comment="" />
+    <list default="true" id="46ef6bc0-f343-4c67-a9f4-0f12e71fcc40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AuctionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AuctionServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,15 +34,19 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1pLB8HvXH5vE71e6EeLFLre66GE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project_Tondeuse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,7 +57,14 @@
       <recent name="services" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AuctionServiceTest.when_TwoWinners_then_Exception">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <module name="Auction_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="models.Result" />
       <module name="Auction_Project" />
@@ -61,8 +78,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuctionServiceTest.auctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auction_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuctionServiceTest" />
+      <option name="METHOD_NAME" value="auctionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuctionServiceTest.when_JustOnePlayer_then_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auction_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuctionServiceTest" />
+      <option name="METHOD_NAME" value="when_JustOnePlayer_then_Exception" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuctionServiceTest.when_TwoWinners_then_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auction_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuctionServiceTest" />
+      <option name="METHOD_NAME" value="when_TwoWinners_then_Exception" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuctionServiceTest.when_TwoWinners_then_Exception" />
+        <item itemvalue="JUnit.AuctionServiceTest.when_JustOnePlayer_then_Exception" />
+        <item itemvalue="JUnit.AuctionServiceTest.auctionTest" />
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.Result" />
       </list>
     </recent_temporary>
@@ -82,12 +133,38 @@
       <workItem from="1615235447443" duration="6676000" />
       <workItem from="1615559139375" duration="1415000" />
       <workItem from="1615842434214" duration="11297000" />
-      <workItem from="1615995140914" duration="100000" />
+      <workItem from="1615995140914" duration="6013000" />
+      <workItem from="1616107558834" duration="777000" />
     </task>
+    <task id="LOCAL-00001" summary="Add unit tests">
+      <created>1616002104213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616002104213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="214" width="803" height="677" key="#Project_Structure" timestamp="1615559288647">
@@ -102,26 +179,34 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="142" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1615238338926" />
+    <state x="558" y="127" width="860" height="850" key="CommitChangelistDialog2" timestamp="1616002104126">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="558" y="127" width="860" height="850" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1616002104126" />
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1615997762290">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1615997762290" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1615559189306">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1615559189306" />
-    <state width="1807" height="207" key="GridCell.Tab.0.bottom" timestamp="1615857117017">
+    <state width="1807" height="428" key="GridCell.Tab.0.bottom" timestamp="1616108514960">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="207" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1615857117017" />
-    <state width="1807" height="207" key="GridCell.Tab.0.center" timestamp="1615857117016">
+    <state width="1807" height="428" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
+    <state width="1807" height="428" key="GridCell.Tab.0.center" timestamp="1616108514960">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="207" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1615857117016" />
-    <state width="1807" height="207" key="GridCell.Tab.0.left" timestamp="1615857117016">
+    <state width="1807" height="428" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
+    <state width="1807" height="428" key="GridCell.Tab.0.left" timestamp="1616108514960">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="207" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1615857117016" />
-    <state width="1807" height="207" key="GridCell.Tab.0.right" timestamp="1615857117016">
+    <state width="1807" height="428" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
+    <state width="1807" height="428" key="GridCell.Tab.0.right" timestamp="1616108514960">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="207" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1615857117016" />
+    <state width="1807" height="428" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
     <state width="1807" height="371" key="GridCell.Tab.1.bottom" timestamp="1615245290230">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -142,13 +227,21 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1615995240352" />
+    <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615997844692">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1615997844692" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1615995141728">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1615995141728" />
-    <state x="657" y="253" key="run.anything.popup" timestamp="1615845075171">
+    <state x="657" y="253" key="run.anything.popup" timestamp="1615998637349">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1615845075171" />
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1615998637349" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1616107749525">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1616107749525" />
   </component>
 </project>
