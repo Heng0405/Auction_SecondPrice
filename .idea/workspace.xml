@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="46ef6bc0-f343-4c67-a9f4-0f12e71fcc40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AuctionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AuctionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Bid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/AuctionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AuctionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/CreatePlayersAndBidsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configs/CreatePlayersAndBids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/case.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/case.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/players.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/players.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Bid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Bid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/AuctionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/AuctionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/CreatePlayersAndBidsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +41,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -56,8 +71,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="services" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuctionServiceTest.when_TwoWinners_then_Exception">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Launcher" />
       <module name="Auction_Project" />
@@ -65,15 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="models.Result" />
+    <configuration name="AuctionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Auction_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuctionServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="JUnit.AuctionServiceTest" />
+        <item itemvalue="JUnit.AuctionServiceTest.auctionTest" />
         <item itemvalue="JUnit.AuctionServiceTest.when_TwoWinners_then_Exception" />
         <item itemvalue="JUnit.AuctionServiceTest.when_JustOnePlayer_then_Exception" />
-        <item itemvalue="JUnit.AuctionServiceTest.auctionTest" />
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.Result" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +148,11 @@
       <workItem from="1615559139375" duration="1415000" />
       <workItem from="1615842434214" duration="11297000" />
       <workItem from="1615995140914" duration="6013000" />
-      <workItem from="1616107558834" duration="777000" />
+      <workItem from="1616107558834" duration="3427000" />
+      <workItem from="1616151209955" duration="1011000" />
+      <workItem from="1616152730505" duration="2662000" />
+      <workItem from="1616157570747" duration="2917000" />
+      <workItem from="1616170005237" duration="4364000" />
     </task>
     <task id="LOCAL-00001" summary="Add unit tests">
       <created>1616002104213</created>
@@ -143,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616002104213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add unit tests">
+      <created>1616108544209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616108544209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,10 +204,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="142" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1615238338926" />
-    <state x="558" y="127" width="860" height="850" key="CommitChangelistDialog2" timestamp="1616002104126">
+    <state x="558" y="127" width="860" height="850" key="CommitChangelistDialog2" timestamp="1616108543971">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="558" y="127" width="860" height="850" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1616002104126" />
+    <state x="558" y="127" width="860" height="850" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1616108543971" />
     <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1615997762290">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -191,50 +216,54 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1615559189306" />
-    <state width="1807" height="428" key="GridCell.Tab.0.bottom" timestamp="1616108514960">
+    <state width="1807" height="322" key="GridCell.Tab.0.bottom" timestamp="1616175689712">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="428" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
-    <state width="1807" height="428" key="GridCell.Tab.0.center" timestamp="1616108514960">
+    <state width="1807" height="322" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1616175689712" />
+    <state width="1807" height="322" key="GridCell.Tab.0.center" timestamp="1616175689711">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="428" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
-    <state width="1807" height="428" key="GridCell.Tab.0.left" timestamp="1616108514960">
+    <state width="1807" height="322" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1616175689711" />
+    <state width="1807" height="322" key="GridCell.Tab.0.left" timestamp="1616175689711">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="428" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
-    <state width="1807" height="428" key="GridCell.Tab.0.right" timestamp="1616108514960">
+    <state width="1807" height="322" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1616175689711" />
+    <state width="1807" height="322" key="GridCell.Tab.0.right" timestamp="1616175689712">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="428" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1616108514960" />
-    <state width="1807" height="371" key="GridCell.Tab.1.bottom" timestamp="1615245290230">
+    <state width="1807" height="322" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1616175689712" />
+    <state width="1807" height="371" key="GridCell.Tab.1.bottom" timestamp="1616172162880">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="371" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1615245290230" />
-    <state width="1807" height="371" key="GridCell.Tab.1.center" timestamp="1615245290229">
+    <state width="1807" height="371" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1616172162880" />
+    <state width="1807" height="371" key="GridCell.Tab.1.center" timestamp="1616172162880">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="371" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1615245290229" />
-    <state width="1807" height="371" key="GridCell.Tab.1.left" timestamp="1615245290229">
+    <state width="1807" height="371" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1616172162880" />
+    <state width="1807" height="371" key="GridCell.Tab.1.left" timestamp="1616172162880">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="371" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1615245290229" />
-    <state width="1807" height="371" key="GridCell.Tab.1.right" timestamp="1615245290230">
+    <state width="1807" height="371" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1616172162880" />
+    <state width="1807" height="371" key="GridCell.Tab.1.right" timestamp="1616172162880">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="371" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1615245290230" />
+    <state width="1807" height="371" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1616172162880" />
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1615995240352">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1615995240352" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1616108603619">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1616108603619" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615997844692">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1615997844692" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1615995141728">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1616170038589">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1615995141728" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1616170038589" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1615998637349">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -243,5 +272,8 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1616107749525" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Auction_Project$AuctionServiceTest.ic" NAME="AuctionServiceTest Coverage Results" MODIFIED="1616110959009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

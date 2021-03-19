@@ -1,7 +1,5 @@
-package services;
+package configs;
 
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
 import models.Bid;
 import models.Buyer;
 import org.apache.commons.lang3.StringUtils;
@@ -15,12 +13,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class CreatePlayersAndBidsService {
+public class CreatePlayersAndBids {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CreatePlayersAndBidsService.class);
     private final String path;
 
-    public CreatePlayersAndBidsService(String path) {
+    public CreatePlayersAndBids(String path) {
         this.path = path;
     }
 
@@ -43,6 +40,26 @@ public class CreatePlayersAndBidsService {
         return lines.stream().toArray(String[]::new);
     }
 
+    /**
+     * Create Buyers from text
+     * @param path
+     * @return
+     */
+    public static List<Buyer> getBuyers(String path) {
+        String[] lines = readFile(path);
+        List<String> names = Arrays.stream(lines)
+                                   .map(String::trim)
+                                   .map(e -> e.charAt(0))
+                                   .map(String::valueOf)
+                                   .collect(Collectors.toList());
+        return names.stream().map(Buyer::new).collect(Collectors.toList());
+    }
+
+    /**
+     * Create bids from the text
+     * @param path
+     * @return
+     */
     public static List<Bid> getBids(String path) {
         String[] lines = readFile(path);
         List<Bid> bids = new ArrayList<>();
@@ -59,15 +76,6 @@ public class CreatePlayersAndBidsService {
             }
         }
         return bids;
-    }
-
-    public static List<Buyer> getBuyers(String path) {
-        String[] lines = readFile(path);
-        List<String> names = Arrays.stream(lines)
-                                   .map(e -> e.charAt(0))
-                                   .map(String::valueOf)
-                                   .collect(Collectors.toList());
-        return names.stream().map(Buyer::new).collect(Collectors.toList());
     }
 
 }

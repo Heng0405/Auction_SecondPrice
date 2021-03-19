@@ -4,7 +4,7 @@ import models.Bid;
 import models.Buyer;
 import models.Result;
 import services.AuctionService;
-import services.CreatePlayersAndBidsService;
+import configs.CreatePlayersAndBids;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ public class Launcher {
     public static void main(String[] args) {
 
             String path = "src/main/resources/players.txt";
-            List<Bid> bids = CreatePlayersAndBidsService.getBids(path);
-            List<Buyer> buyers = CreatePlayersAndBidsService.getBuyers(path);
+            List<Bid> bids = CreatePlayersAndBids.getBids(path);
+            List<Buyer> buyers = CreatePlayersAndBids.getBuyers(path);
 
             AuctionObject auctionObject = new AuctionObject(100, "AuctionObject");
             auctionObject.setBuyers(buyers);

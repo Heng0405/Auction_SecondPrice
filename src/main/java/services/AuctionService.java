@@ -41,7 +41,7 @@ public class AuctionService {
         Buyer winner = bids.stream()
                            .filter(e -> e.getPrice() == highestPrice)
                            .map(Bid::getBuyer)
-                           .findAny()
+                           .findFirst()
                            .get();
         /**
          * Find the winning price

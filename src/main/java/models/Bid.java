@@ -7,7 +7,6 @@ public class Bid {
 
     private int price;
     private Buyer buyer;
-    private AuctionObject object;
 
     public Bid(int price, Buyer buyer) {
         this.price = price;
@@ -41,7 +40,6 @@ public class Bid {
         return new EqualsBuilder()
                 .append(this.price, that.price)
                 .append(this.buyer, that.buyer)
-                .append(this.object,that.object)
                 .isEquals();
     }
 
@@ -49,7 +47,6 @@ public class Bid {
         return new HashCodeBuilder()
                     .append(price)
                     .append(buyer)
-                    .append(object)
                     .toHashCode();
     }
 }
